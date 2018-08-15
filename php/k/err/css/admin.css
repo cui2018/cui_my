@@ -1,0 +1,106 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, button, input, textarea, th, td, table, a, em, img, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	margin: 0px;
+	padding: 0px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body, button, input, select, textarea {
+	font: 14px "微软雅黑", Tahoma, Geneva, sans-serif;
+	color: #2e2e2e;
+	line-height: 24px;
+}
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: none;
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-drag: none;
+}
+a, img {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-touch-callout: none;
+}
+em {
+	font-style: normal;
+}
+ul, li {
+	list-style: none;
+	overflow: hidden;
+}
+img {
+	border: none;
+	vertical-align: middle;
+}
+p {
+	word-wrap: break-word
+}
+a {
+	text-decoration: none;
+	color: #2e2e2e;
+}
+a:hover {
+	color: #2e2e2e;
+}
+a span, a em {
+	cursor: pointer;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+body {
+	background: #fff;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0px auto;
+}
+/*通用样式结束*/
+.box1{
+	position:absolute;
+	top:30%;
+	left:30%;
+	width:40%;
+}
+.box1-l{
+	width:128px;
+	height:128px;
+	float:left;
+}
+.box1-r{
+	float:left;
+	padding-left:20px;
+}
+.box1-gx{
+	font-size:40px;
+	font-weight:bold;
+	color:#fe8804;
+	line-height:70px;
+}
+.box1-txt{
+	font-size:24px;
+	font-weight:bold;
+	color:#2e2e2e;
+	line-height:48px;
+}
+.box1-button{
+	padding-top:20px;
+}
+.box1-btn{
+	float:left;
+	margin:20px 0 0 20px;
+}
+.box1-btn button{
+	font-size:18px;
+	font-weight:bold;
+	color:#fff;
+	line-height:36px;
+	border-radius:5px;
+	box-shadow:1px 1px 3px #6e6e6e;
+	padding:0 20px;
+	background:#fe8804;
+	border:none;
+	outline:none;
+}

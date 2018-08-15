@@ -1,0 +1,7 @@
+@charset "utf-8";
+html {height:100%;}
+body {margin:0; height:100%; background:url(../images/404.png) no-repeat center/auto 60%;}
+@media screen and (max-width:800px){
+    body {background-size:95% auto;}
+}
+.tip {position:absolute; width:80%; left:10%; bottom:10%; text-align:center; color:#FE7500; font:5vh/7vh Microsoft YaHei; text-shadow:1px 1px 0 #E5BE01;}
